@@ -36,6 +36,10 @@ else if (randomNumberCpu < randomNumberPlayer){
     result = "playerWin"
 }
 
+else {
+    result = "draw"
+
+}
 console.log(randomNumberCpu);
 console.log(randomNumberPlayer);
 console.log(result);
